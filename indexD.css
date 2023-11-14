@@ -1,0 +1,55 @@
+@media (min-width: 1540px) {
+  body {
+    width: 1540px;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 56px;
+  }
+
+  h3 {
+    font-size: 38px;
+  }
+
+  .pic1 {
+    background-image: url(./photo1d.png);
+    width: 1435px;
+    height: 590px;
+  }
+
+  .section-second {
+    padding: 0 100px 40px;
+  }
+
+  .section-third li {
+    min-height: 501px;
+  }
+
+  .section-third div {
+    height: 640px;
+  }
+
+  .section-third li:not(:nth-child(2)) h2 {
+    padding-top: 100px;
+  }
+
+  .section-third div h3:nth-child(2) {
+    margin: 500px 0 0;
+  }
+
+  .section-fourth {
+    background-image: url(./stars2d.png);
+    padding-bottom: 350px;
+  }
+
+  .section-fourth h2 {
+    font-size: 46px;
+  }  
+
+  .table-2 {
+    display: flex;
+    justify-content: space-between;
+    width: initial;
+  }
+}

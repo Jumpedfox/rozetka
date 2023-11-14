@@ -1,0 +1,142 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Russo One", sans-serif;
+  color: white;
+  letter-spacing: 0.1rem;
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 6px;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+  margin: 6px 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pic1 {
+  background-image: url(./photo1m.png);
+  width: 283px;
+  height: 167px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-first {
+  height: 660px;
+  background-color: #333087;
+  background-image: url(./stars1m.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section-first div div {
+  box-sizing: border-box;
+  padding: 0 60px;
+}
+
+.logo {
+  width: 185px;
+  height: 185px;
+  margin-top: 30px;
+}
+
+.pic {
+  margin-top: 30px;
+}
+
+.section-second {
+  height: 528px;
+  background-color: #333087;
+  text-align: center;
+}
+
+.section-second h2 {
+  text-transform: uppercase;
+}
+
+.section-second img {
+  margin-top: 36px;
+}
+
+.section-second li:first-child h2:first-child {
+  margin-top: 0;
+}
+
+.margin30 {
+  margin-top: 40px;
+}
+
+.section-third {
+  color: black;
+  box-sizing: border-box;
+  padding: 0 8px 20px;
+}
+
+.section-third div {
+  width: 280px;
+  height: 270px;
+  background-image: url(./photo2m.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: end;
+  margin: 30px auto 0;
+}
+
+.section-third div h3:nth-child(2) {
+  margin: 196px 20px 0 0;
+}
+
+.section-third h2 {
+  margin-top: 10px;
+  color: #e27601;
+}
+
+.section-third img {
+  margin-top: 30px;
+}
+
+.section-fourth {
+  text-transform: uppercase;
+  background-color: #333087;
+  height: fit-content;
+  background-image: url(./stars2m.png);
+  width: 100%;
+  height: 230px;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.section-fourth h2 {
+  padding-top: 28px;
+  margin-top: 0;
+}
+
+.table {
+  display: none;
+}
